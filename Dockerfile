@@ -20,4 +20,4 @@ RUN apt-get -y -qq install apt-transport-https ca-certificates software-properti
 && apt-cache search docker-ce \
 && apt-get -y -qq install docker-ce
 
-RUN mkdir ~/.kube && touch /kops.sh && chmod +x /kops.sh
+RUN mkdir ~/.kube
